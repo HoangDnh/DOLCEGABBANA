@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOLCE & GABBANA</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            @keyframes underline {
+                0% {
+                    width: 0;
+                    left: 50%;
+                }
+                100% {
+                    width: 100%;
+                    left: 0;
+                }
+            }
+
+            .underline-animate {
+                position: relative;
+                display: inline-block;
+            }
+
+            .underline-animate::after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                width: 0;
+                height: 1px;
+                background-color: black; /* Màu đỏ cho underline */
+                transition: width 0.2s ease, left 0.2s ease;
+            }
+
+            .underline-animate:hover::after {
+                width: 100%;
+                left: 0;
+                animation: underline 0.5s forwards;
+            }
+        </style>
+    </head>
+    <body class="block h-max w-full">
+        <header class="flex top-0 left-0 justify-around font-light items-center text-zinc-800 text-md  fixed z-20 left-0 right-0 h-max w-full px-2 py-1 bg-white shadow-2xl">
+            <div class="logo-header w-max h-max">
+                <img src="IMAGE/LOGO.jpg" alt=  "logo" width="150" height="80"/>
+            </div>
+            <ul class=" flex gap-10 text-nowrap">
+                <li>
+
+                    <div class="group relative">
+                        <a  class=" underline-animate transition-all duration-300 transform" id="nav1" aria-expanded="true" aria-haspopup="true">NỮ</a>
+                        <div class=" transition-all duration-300 transform absolute z-14 h-max py-3 px-8 w-[30svw] origin-top-right rounded-md bg-stone-100 border-none shadow-2xl opacity-0 invisible group-hover:visible group-hover:opacity-100 hover:visble" role="menu" aria-orientation="vertical" aria-labelledby="nav1">
+                            <div class="py-1" role="none">
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Hàng mới về</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Áo sơ mi</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">Áo thun</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Áo vest</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Áo len</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">License</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Áo khoác</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Quần Jeans</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">Quần lửng</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Quần đùi</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Quần cộc</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">Váy ngắn</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Váy dài</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Váy công sở</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">Váy gofl</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Váy toàn thân</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Đồ lót</a>
+                            </div>
+                        </div> 
+                    </div>
+                </li> 
+                <li>
+                    <div class="group relative">
+                        <a  class=" underline-animate transition-all duration-300 transform" id="nav1" aria-expanded="true" aria-haspopup="true">NAM</a>
+                        <div class=" transition-all duration-300 transform absolute z-14 h-max py-3 px-8 w-[30svw] origin-top-right rounded-md bg-stone-100 border-none shadow-2xl opacity-0 invisible group-hover:visible group-hover:opacity-100 hover:visble" role="menu" aria-orientation="vertical" aria-labelledby="nav1">
+                            <div class="py-1" role="none">
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Hàng mới về</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Áo sơ mi</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">Áo thun</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Áo vest</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Áo len</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">License</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Áo khoác</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">Áo chống nắng</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Áo giữ nhiệt</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Quần Jeans</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">Quần lửng</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Quần đùi</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Quần cộc</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Quần thể thao</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Đồ lót</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">Thắt lưng</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Ví da</a>
+                            </div>
+                        </div> 
+                    </div>
+                </li>
+                <li>
+                    <div class="group relative">
+                        <a  class=" underline-animate transition-all duration-300 transform" id="nav1" aria-expanded="true" aria-haspopup="true">TRANG SỨC</a>
+                        <div class=" transition-all duration-300 transform absolute z-14 h-max py-3 px-8 w-[30svw] origin-top-right rounded-md bg-stone-100 border-none shadow-2xl opacity-0 invisible group-hover:visible group-hover:opacity-100 hover:visble" role="menu" aria-orientation="vertical" aria-labelledby="nav1">
+                            <div class="py-1" role="none">
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">Sản phẩm mới</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Vòng-lắc</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Nhẫn</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">Dây chuyền</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Bông tai</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Khuyên xỏ</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">Trang sức đôi</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Trang sức bộ</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">Phong thủy</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Quà tặng</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Phụ kiện</a>
+                            </div>
+                        </div> 
+                    </div>
+                </li>
+                <li>
+                    <div class="group relative">
+                        <a  class=" underline-animate transition-all duration-300 transform" id="nav1" aria-expanded="true" aria-haspopup="true">GIÀY DÉP</a>
+                        <div class=" transition-all duration-300 transform absolute z-14 h-max py-3 px-8 w-[30svw] origin-top-right rounded-md bg-stone-100 border-none shadow-2xl opacity-0 invisible group-hover:visible group-hover:opacity-100 hover:visble" role="menu" aria-orientation="vertical" aria-labelledby="nav1">
+                            <div class="py-1" role="none">
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">Sản phẩm mới</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Giày tây</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Giày sục & giày lười</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">Giày Sneakers</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Giày bốt</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Giày xăng đan & dép</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">Giày cao gót</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Giày búp bê</a>
+                            </div>
+                        </div> 
+                    </div>
+                </li>
+                <li><a href="">SALE</a></li>
+                <li><div class="group relative">
+                        <a  class=" underline-animate transition-all duration-300 transform" id="nav1" aria-expanded="true" aria-haspopup="true">BỘ SƯU TẬP</a>
+                        <div class=" transition-all duration-300 transform absolute z-14 h-max py-3 px-8 w-[30svw] origin-top-right rounded-md bg-stone-100 border-none shadow-2xl opacity-0 invisible group-hover:visible group-hover:opacity-100 hover:visble" role="menu" aria-orientation="vertical" aria-labelledby="nav1">
+                            <div class="py-1" role="none">
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">YOUTIFUL</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">COZY GLAMOUR</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">SOLAR - SHINE TOGETHER</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">OFFICE DIVAS</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">SAPPHIRE CHIC</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">DREAMY BLOOM</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-2">HER SIGNATURE</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">MUSE OF THE SUN</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">DELICATE LADY</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">ROSA CHARM</a>
+                            </div>
+                        </div> 
+                    </div></li>
+                <li><a href="">VỀ CHÚNG TÔI</a></li>
+
+            </ul>
+            <ul class="other-header flex jutify-around items-center w-max h-full  p-5 relative">
+                <li class="text-zinc-100">
+                    <i class="fas fa-search icon text-zinc-400 absolute left-8 top-[40%]"></i>
+                    <input placeholder="Tìm kiếm..." type="text" class="h-8 w-max py-6 pl-9 border-2 bg-transparent rounded-md border-zinc-100 " /> 
+                </li> 
+            </ul>
+        </header>
+        <main class="mt-[15svh] h-max px-20">
+            <div class="slider-header ">
+                <div class="slides-header"> 
+                    <div class="slide"> 
+                        <img src="IMAGE/slide1.jpg" alt="slide1"/>
+                    </div> 
+                    <div class="slide"> 
+                        <img src="IMAGE/slide2.jpg" alt="slide2"/>
+                    </div> 
+                    <div class="slide"> 
+                        <img src="IMAGE/slide3.jpg" alt="slide3"/>
+                    </div> 
+                </div> 
+                <div class="navigation"> 
+                    <button class="prev">&#10094;</button> 
+                    <button class="next">&#10095;</button> 
+                </div>
+            </div>
+            <div class="flex flex-col gap-15 items-center jusify-center p-5 gap-5">
+
+                <h1 class="text-5xl font-semibold ">TOP TRENDING</h1>
+                <div class="max-w-3xl mx-auto">
+                    <div class="border-b border-gray-300">
+                        <ul id="tabs" class="flex space-x-8 p-4">
+                            <li><a href="#" class="tab tab1 text-lg text-gray-600 px-4 py-2 block">NỮ</a></li>
+                            <li><a href="#" class="tab text-lg text-gray-600 px-4 py-2 block">NAM</a></li>
+                            <li><a href="#" class="tab text-lg text-gray-600 px-4 py-2 block">ĐỒNG HỒ</a></li>
+                            <li><a href="#" class="tab text-lg text-gray-600 px-4 py-2 block">TRANG SỨC</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="content-product-1"></div>
+
+            <div class="check-all-list-top-trending py-4 px-3 flex justify-center">
+                <a href="" class="text-center text-lg font-bold">Xem tất cả</a>
+            </div>
+
+            <div class="title-main">
+                <h1 class="text-5xl font-semibold text-center pt-8 pb-12">Fall/ Winter New Collection 2024</h1>  
+            </div>
+            <div class="grid grid-cols-4 gap-4 h-max">
+
+                <div><img src="IMAGE/pic1.jpg" alt="" class="rounded-tl-[50px] rounded-br-[50px]"/></div>
+                <div><img src="IMAGE/pic2.jpg" alt="" class="rounded-tl-[50px] rounded-br-[50px]"/></div>
+                <div><img src="IMAGE/pic3.jpg" alt="" class="rounded-tl-[50px] rounded-br-[50px]"/></div>
+                <div><img src="IMAGE/pic4.jpg" alt="" class="rounded-tl-[50px] rounded-br-[50px]"/></div>
+
+                <div class="col-span-4 row-span-4"><img class="rounded-tl-[50px] rounded-br-[50px]" src="IMAGE/pic5.jpg" alt=""/></div>
+                <div class="col-span-2 row-span-2"><img class="rounded-tl-[50px] rounded-br-[50px]" src="IMAGE/pic6.jpg" alt=""/></div>
+                <div class="col-span-2 row-span-2"><img class="rounded-tl-[50px] rounded-br-[50px]" src="IMAGE/pic7.jpg" alt=""/></div>
+            </div>
+        </main>
+
+        <div class="pt-[50px] border-b border-gray-300 focus:outline-none focus:border-blue-500">
+            
+        </div>
+        
+        <footer class="flex justify-between bg-white text-sm px-10 py-5 pt-[40px]"> 
+            <div class="flex flex-col gap-7"> 
+                <img src="IMAGE/LOGO.jpg" alt="Dolce&Gabbana Logo" class="footer-logo w-max h-20 pl-4"> 
+                <div>
+                    <div class="social-media flex space-x-4"> 
+                        <img src="IMAGE/Facebook_Logo.png" alt="Facebook" class="w-max h-6"> 
+                        <img src="IMAGE/Google_Logo.jpg" alt="Google" class="w-max h-6"> 
+                        <img src="IMAGE/Instagram_Logo.png" alt="Instagram" class="w-max h-6"> 
+                        <img src="IMAGE/Pinterest_Logo.jpeg" alt="Pinterest" class="w-max h-6"> 
+                        <img src="IMAGE/Youtube_logo.jpg" alt="YouTube" class="w-max h-6"> 
+                    </div> 
+                    <div class="img-footer flex space-x-4 pt-2"> 
+                        <img src="IMAGE/dmca.png" alt="DMCA" class="w-max h-8 pt-1"> 
+                        <img src="IMAGE/congthuong.png" alt="Công thương" class="w-max h-9"> 
+                    </div> 
+                </div>
+                <div class="bg-black text-white rounded-lg px-4 py-2">
+                    <p class="hotline">Hotline: 0869 238 856</p> 
+                </div>
+            </div> 
+            <div class="footer-section pl-9"> 
+                <div class="text-base font-semibold">Giới thiệu</div>
+                <ul> 
+                    <li class="pt-3"><a href="#">Về Dolce&Gabbana</a></li> 
+                    <li class="pt-2"><a href="#">Tuyển dụng</a></li> 
+                    <li class="pt-2"><a href="#">Hệ thống cửa hàng</a></li> 
+                </ul> 
+            </div> 
+            <div class="footer-section pl-9"> 
+                <div class="text-base font-semibold">Dịch vụ khách hàng</div> 
+                <ul> 
+                    <li class="pt-3"><a href="#">Chính sách điều khoản</a></li> 
+                    <li class="pt-2"><a href="#">Hướng dẫn mua hàng</a></li> 
+                    <li class="pt-2"><a href="#">Chính sách thanh toán</a></li> 
+                    <li class="pt-2"><a href="#">Chính sách đổi trả</a></li> 
+                    <li class="pt-2"><a href="#">Chính sách bảo hành</a></li> 
+                    <li class="pt-2"><a href="#">Chính sách giao nhận vận chuyển</a></li> 
+                    <li class="pt-2"><a href="#">Chính sách thẻ thành viên</a></li> 
+                    <li class="pt-2"><a href="#">Q&A</a></li> 
+                </ul> 
+            </div>
+            <div class="footer-section pl-9"> 
+                <div class="text-base font-semibold">Liên hệ</div>
+                <ul> 
+                    <li class="pt-3"><a href="#">Hotline</a></li> 
+                    <li class="pt-3"><a href="#">Email</a></li> 
+                    <li class="pt-3"><a href="#">Live Chat</a></li> 
+                    <li class="pt-3"><a href="#">Messenger</a></li> 
+                    <li class="pt-3"><a href="#">Liên hệ</a></li> 
+                </ul> 
+            </div> 
+            <div class="footer-section pl-9"> 
+                <div class="text-base font-semibold">Nhận thông tin</div>
+                <p class="pt-3">Nhận thông tin các chương trình của Dolce&Gabbana</p> 
+                <input class="pt-3 border-b border-gray-300 focus:outline-none focus:border-blue-500" type="email" placeholder="Nhập email của bạn"> 
+                <button class="bg-black text-white w-20 h-6 ml-5 rounded-tl-[10px] rounded-br-[10px]">Đăng ký</button> 
+                <div class="pt-5 text-base font-semibold">Tải ứng dụng</div>
+                <img class="w-max h-20 pt-0" src="IMAGE/App.png" alt="App Store"> 
+            </div>    
+        </footer>
+        <footer class="footer-2">
+            <div class="footer-section"> 
+                <div class="pt-3 border-b border-gray-300 focus:outline-none focus:border-blue-500"></div>
+                <p class="pt-5 pb-8 text-zinc-500 text-center">©Dolce&Gabbana All rights reserved</p> 
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

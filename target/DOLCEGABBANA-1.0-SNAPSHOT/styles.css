@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icon{
+    font-size: 18px;
+}
+.slider-header {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+.slides-header {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+.slide img {
+    width: 100%;
+    display: block;
+}
+.navigation {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.prev, .next {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.main-header{
+    text-align: center;
+    margin-top: 30px;
+}
+.main-header .title-main2{
+    display: flex;
+    justify-content: space-between;
+}
+.product-list-top-trending{
+    display: flex;
+    justify-content: space-between;
+}
+.product-list-top-trending .product-item{
+    margin: 0 15px 0 15px;
+}
+.product-list-top-trending .product-item img{
+    width: 260px;
+    height: 390px;
+}
+.product-list-top-trending .product-item .product-info .product-name{
+    color: #57585A;
+    font-family: Montserrat SemiBold, sans-serif;
+    font-size: 14px;
+}
+.product-list-top-trending .product-item .product-info .product-price{
+    color: #3E3E3F;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+}
+.product-name{
+    margin-top: 12px;
+}
+.product-price{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.price-orginal{
+    text-decoration: line-through;
+    margin-left: 18px;
+}
+.product-list-top-trending .product-item .product-info a{
+    margin-left: 70px;
+}
+.check-all-list-top-trending{
+    background-color: #000000;
+    color: white;
+    border: 1px;
+    height: max;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    align-items: center;
+}
+.check-all-list{
+    background-color: #555;
+}
+.check-all-list-top-trending .check-all-list a{
+    margin: auto;
+}
+.line {
+    border-top: 5px solid blue; 
+    border-bottom: 1px solid grey; 
+    width: 100%;
+}
+.img-col-4{
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
